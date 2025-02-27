@@ -1,0 +1,31 @@
+@keyframes animateAdvertising {
+    0% {
+        background-color: red;
+    }
+    95%{
+        background-color: yellow;
+        opacity: 100; 
+    }
+    100%{
+        background-color: yellow;
+        opacity: 0;
+    }
+}
+
+.advertising {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+    opacity: 0;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    text-transform: uppercase;
+    
+    animation-name: animateAdvertising;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}

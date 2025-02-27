@@ -1,0 +1,36 @@
+@keyframes animateBox {
+    0% {
+        background-color: blue;
+        transform: scale(1) rotate(0deg);
+    }
+    25% {
+        background-color: magenta;
+        transform: scale(1.5) rotate(180deg);
+    }
+    50% {
+        background-color: red;
+        transform: scale(2) rotate(360deg);
+    }
+    75% {
+        background-color: magenta;
+        transform: scale(1.5) rotate(180deg);
+    }
+    0% {
+        background-color: blue;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.animated-box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+    animation-name: animateBox;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
