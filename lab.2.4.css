@@ -1,6 +1,7 @@
 @keyframes animateAdvertising {
     0% {
         background-color: red;
+        opacity: 100;
     }
     95%{
         background-color: yellow;
